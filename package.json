@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "main.js",
   "scripts": {
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release --debug"
   },
   "devDependencies": {
     "semantic-release": "^15.13.18"
