@@ -1,18 +1,7 @@
 {
   "name": "semantic-demo",
   "version": "1.0.0",
-  "description": "",
   "main": "main.js",
-  "release": {
-    "branches": [
-      "main"
-    ],
-    "plugins": [
-      "@semantic-release/commit-analyzer",
-      "@semantic-release/release-notes-generator",
-      "@semantic-release/github"
-    ]
-  },
   "scripts": {
     "semantic-release": "semantic-release"
   },
@@ -20,6 +9,6 @@
     "semantic-release": "^15.13.18"
   },
   "keywords": [],
-  "author": "",
+  "author": "Linker",
   "license": "ISC"
 }
