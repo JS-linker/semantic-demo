@@ -2,12 +2,20 @@
   "name": "semantic-demo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "release": {
-    "branches": ["master", "main"]
+    "branche": "main",
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/github"
+    ]
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "semantic-release": "semantic-release"
+  },
+  "devDependencies": {
+    "semantic-release": "^15.13.18"
   },
   "keywords": [],
   "author": "",

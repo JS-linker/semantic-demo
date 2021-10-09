@@ -1,5 +1,0 @@
-steps:
-  - name: Action For Semantic Release
-    uses: cycjimmy/semantic-release-action@v2.5.4
-    env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
