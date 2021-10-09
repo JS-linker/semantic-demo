@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/JS-linker/semantic-demo/compare/v1.0.0...v1.1.0) (2021-10-09)
+
+
+### Features
+
+* build next version ([2437a21](https://github.com/JS-linker/semantic-demo/commit/2437a21a6d1f8dd93d4b4280eff396f294d6aa73))
+
 # 1.0.0 (2021-10-09)
 
 
