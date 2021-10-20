@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "main": "main.js",
   "scripts": {
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "build-changelog": "auto-changelog --template changelog-template.hbs --handlebars-setup changelog-setup.js"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.0",
     "@semantic-release/git": "^10.0.0",
+    "auto-changelog": "^2.3.0",
     "semantic-release": "^18.0.0"
   },
   "keywords": [],
