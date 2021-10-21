@@ -1,8 +1,6 @@
-### Changelog
-Now you can use custom helpers!
-
 #### [v1.2.0](https://github.com/JS-linker/semantic-demo/compare/v1.1.0...v1.2.0)
 
+- Commits have a 46e11bf, a [+] auto-changelog and a https://github.com/JS-linker/semantic-demo/commit/46e11bfb245ee2f8d8306740696a5cec4b997c53, amongst other things.
 - Commits have a 994f5d1, a [+] generate log new method and a https://github.com/JS-linker/semantic-demo/commit/994f5d1c537faa7d2204867ec46f37d1b0a4c572, amongst other things.
 
 #### [v1.1.0](https://github.com/JS-linker/semantic-demo/compare/v1.0.0...v1.1.0)

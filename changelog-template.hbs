@@ -1,7 +1,4 @@
-### Changelog
-Now you can use {{custom}}
-
-{{#each releases}}
+{{#list releases}}
   {{#if href}}
     ###{{#unless major}}#{{/unless}} [{{title}}]({{href}})
   {{else}}
@@ -18,4 +15,4 @@ Now you can use {{custom}}
     - Commits have a {{shorthash}}, a {{subject}} and a {{href}}, amongst other things.
   {{/each}}
 
-{{/each}}
+{{/list}}
