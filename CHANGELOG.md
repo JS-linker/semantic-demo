@@ -1,3 +1,7 @@
+#### [v1.2.1](https://github.com/JS-linker/semantic-demo/compare/v1.2.0...v1.2.1)
+
+- Commits have a 87472b7, a [+] new changelog setup and a https://github.com/JS-linker/semantic-demo/commit/87472b723ad556b1caaa8a89f14ab59a2a7c4b51, amongst other things.
+- Commits have a 60849c9, a [+] remove log and a https://github.com/JS-linker/semantic-demo/commit/60849c93eace89078a04f64c056ad788c902fa57, amongst other things.
 #### [v1.2.0](https://github.com/JS-linker/semantic-demo/compare/v1.1.0...v1.2.0)
 
 - Commits have a 46e11bf, a [+] auto-changelog and a https://github.com/JS-linker/semantic-demo/commit/46e11bfb245ee2f8d8306740696a5cec4b997c53, amongst other things.
