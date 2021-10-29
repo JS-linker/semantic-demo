@@ -1,0 +1,7 @@
+RELEASE_TAG=v1.2.1
+
+echo "New release tag $RELEASE_TAG"
+
+CHANGELOG=$(node_modules/.bin/auto-changelog --template changelog-template.hbs --handlebars-setup changelog-setup.js -v $VERSION --stdout)
+
+gh release create $RELEASE_TAG --notes "$CHANGELOG"

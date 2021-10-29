@@ -1,0 +1,9 @@
+VERSION=1.2.1
+node_modules/.bin/auto-changelog --template changelog-template.hbs --handlebars-setup changelog-setup.js -v v$VERSION --stdout > CHANGELOG.temp.md \
+  && cat CHANGELOG.md >> CHANGELOG.temp.md  \
+  && cat CHANGELOG.temp.md > CHANGELOG.md \
+  && rm CHANGELOG.temp.md
+git add CHANGELOG.md
+echo "generate changelog done!"
+git commit -m "Build $VERSION"
+git push
