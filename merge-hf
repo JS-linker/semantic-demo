@@ -1,4 +1,4 @@
-RELEASE_TAG=v1.2.7
+RELEASE_TAG=v1.2.8
 
 echo "New release tag $RELEASE_TAG"
 
