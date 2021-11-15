@@ -1,0 +1,11 @@
+VERSION=$1
+echo $VERSION > $VERSION.zip
+echo $VERSION > $VERSION.txt
+
+git add $VERSION.zip
+git add $VERSION.txt
+git commit -m "create file $VERSION.zip"
+git push
+
+git tag $VERSION
+git push origin $VERSION
